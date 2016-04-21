@@ -155,44 +155,90 @@ header h2 {
 }
 
 div.trainerdiv {
+<<<<<<< HEAD
 	width: 22%;
+=======
+	width: 22%;	
+>>>>>>> 21ad31d6c130b67a94934aaefdbed99d4ec7f4d2
 	margin-left: 2%;
 	margin-right: 2%;
 	margin-top: 8%;
 	float: left;
+<<<<<<< HEAD
+=======
+	position: relative;
+	left: 0;
+	top: 0;
+>>>>>>> 21ad31d6c130b67a94934aaefdbed99d4ec7f4d2
 }
 
 img.trainer {
 	width: 100%;
+<<<<<<< HEAD
 }
 
 img.trainerslide {
 	border: solid black 3px;
 	width: 50%;
+=======
+	transition: 1s ease-in-out;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+img.trainerslide {
+	width: 115%;
+	position: absolute;
+	left: -300px;
+	top: 10px;
+	-webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+>>>>>>> 21ad31d6c130b67a94934aaefdbed99d4ec7f4d2
 }
 
 div.pokemondiv {
 	width: 22%;
+<<<<<<< HEAD
 	margin-right: 2%;
 	margin-top: 2%;
 	float: left;
 	margin-bottom: 8%;
+=======
+	min-height: 132px;
+	margin-right: 2%;
+	margin-top: 2%;
+	float: left;
+>>>>>>> 21ad31d6c130b67a94934aaefdbed99d4ec7f4d2
 }
 
  .pokemon-image{
 	width:100%;
+<<<<<<< HEAD
+=======
+	display: none;
+>>>>>>> 21ad31d6c130b67a94934aaefdbed99d4ec7f4d2
  }
 
 div.avengerdiv {
 	width: 22%;
 	margin-right: 2%;
 	margin-top: 2%;
+<<<<<<< HEAD
 	margin-bottom: 8%;
+=======
+>>>>>>> 21ad31d6c130b67a94934aaefdbed99d4ec7f4d2
 	float: left;
 }
 
  .marvel-image{
 	 width:100%;
+<<<<<<< HEAD
+=======
+	 display: none;
+>>>>>>> 21ad31d6c130b67a94934aaefdbed99d4ec7f4d2
  }
 
 
@@ -202,10 +248,38 @@ div.standiv {
 	margin-top: 4%;
 	margin-bottom: 8%;
 	float: left;
+<<<<<<< HEAD
+=======
+	position: relative;
+>>>>>>> 21ad31d6c130b67a94934aaefdbed99d4ec7f4d2
 }
 
 img.stan {
 	width: 100%;
+<<<<<<< HEAD
+=======
+	transition: 1s ease-in-out;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+img.stanslide {
+	width: 80%;
+	position: absolute;
+	left: 300px;
+	top: -20px;
+	-webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;	
+}
+
+div.textdiv {
+	width: 96%;
+	clear: both;	
+	display: none;
+>>>>>>> 21ad31d6c130b67a94934aaefdbed99d4ec7f4d2
 }
 
 a:link {
@@ -241,6 +315,7 @@ a:active {
 	}
 div #buttonarea {
 	text-align:center;
+	clear: both;
 }
 
 
@@ -326,7 +401,9 @@ nav {
 
 /*-----CONTENT -----*/
 
-
+  div.pokemondiv {
+	min-height: 251px;  
+  }
 
 /*----- FOOTER -----*/
 
@@ -440,6 +517,11 @@ background-color:#393939;
     -o-transform: scale(1.2);
     transform: scale(1.2);
   }
+  
+  div.pokemondiv {
+	min-height: 251px;  
+  }
+  
 } /*end media query desktop*/
 
 @media only screen and (min-width: 1200px) {
